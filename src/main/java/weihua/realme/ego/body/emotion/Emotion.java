@@ -1,4 +1,4 @@
-package weihua.realme.emotion;
+package weihua.realme.ego.body.emotion;
 
 /**
  * 情绪

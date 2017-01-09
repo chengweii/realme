@@ -3,7 +3,7 @@ package weihua.realme.energy.subject;
 import weihua.realme.energy.Energy;
 
 /**
- * 物体
+ * 物质
  * 
  * @author chengwei2
  *

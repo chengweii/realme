@@ -9,6 +9,8 @@ import weihua.realme.energy.Energy;
  *
  */
 public class Self implements Ego {
+	
+	
 
 	@Override
 	public void claimEnergy(Energy energy) {

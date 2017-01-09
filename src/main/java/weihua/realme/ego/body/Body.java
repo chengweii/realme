@@ -1,5 +1,9 @@
-package weihua.realme.body;
+package weihua.realme.ego.body;
 
+import weihua.realme.ego.body.emotion.Emotion;
+import weihua.realme.ego.body.identity.Identity;
+import weihua.realme.ego.body.subconsciousness.Subconsciousness;
+import weihua.realme.ego.body.thinking.Thinking;
 import weihua.realme.energy.view.View;
 
 /**
@@ -9,6 +13,27 @@ import weihua.realme.energy.view.View;
  *
  */
 public interface Body {
+	
+	/**
+	 * 身份认同/角色扮演
+	 */
+	public Identity identity = null;
+
+	/**
+	 * 思想
+	 */
+	public Thinking thinking = null;
+
+	/**
+	 * 潜意识
+	 */
+	public Subconsciousness subconsciousness = null;
+
+	/**
+	 * 情绪
+	 */
+	public Emotion emotion = null;
+	
 	/**
 	 * 看
 	 * 

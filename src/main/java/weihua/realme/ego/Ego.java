@@ -3,13 +3,20 @@ package weihua.realme.ego;
 import java.util.HashMap;
 import java.util.Map;
 
-import weihua.realme.body.Body;
-import weihua.realme.emotion.Emotion;
+import weihua.realme.ego.body.Body;
+import weihua.realme.ego.body.NormalBody;
+import weihua.realme.ego.body.emotion.Emotion;
+import weihua.realme.ego.body.emotion.NormalEmotion;
+import weihua.realme.ego.body.identity.Identity;
+import weihua.realme.ego.body.identity.NormalIdentity;
+import weihua.realme.ego.body.me.Me;
+import weihua.realme.ego.body.me.NormalMe;
+import weihua.realme.ego.body.subconsciousness.NormalSubconsciousness;
+import weihua.realme.ego.body.subconsciousness.Subconsciousness;
+import weihua.realme.ego.body.thinking.NormalThinking;
+import weihua.realme.ego.body.thinking.Thinking;
 import weihua.realme.energy.Energy;
 import weihua.realme.energy.EnergyType;
-import weihua.realme.identity.Identity;
-import weihua.realme.me.Me;
-import weihua.realme.thinking.Thinking;
 
 /**
  * 小我
@@ -20,29 +27,14 @@ import weihua.realme.thinking.Thinking;
 public interface Ego {
 
 	/**
-	 * 身份认同/角色扮演
-	 */
-	public Identity identity = null;
-
-	/**
-	 * 思想
-	 */
-	public Thinking thinking = null;
-
-	/**
-	 * 情绪
-	 */
-	public Emotion emotion = null;
-
-	/**
 	 * 身体
 	 */
-	public Body body = null;
+	public Body body = new NormalBody();
 
 	/**
 	 * 真我
 	 */
-	public Me me = null;
+	public Me me = new NormalMe();
 
 	/**
 	 * 能量池

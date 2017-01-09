@@ -1,4 +1,4 @@
-package weihua.realme.identity;
+package weihua.realme.ego.body.identity;
 
 /**
  * 身份认同/角色扮演

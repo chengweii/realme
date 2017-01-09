@@ -1,4 +1,4 @@
-package weihua.realme.thinking;
+package weihua.realme.ego.body.thinking;
 
 /**
  * 思想
