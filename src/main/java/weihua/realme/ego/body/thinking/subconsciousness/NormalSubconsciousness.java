@@ -1,4 +1,4 @@
-package weihua.realme.ego.body.subconsciousness;
+package weihua.realme.ego.body.thinking.subconsciousness;
 
 /**
  * 默认潜意识

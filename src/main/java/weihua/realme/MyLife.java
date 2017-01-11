@@ -13,9 +13,8 @@ public class MyLife  implements Life
     public static void main( String[] args )
     {
     	Self self=new Self();
-    	Family family=new Family();
-    	
     	self.body.see(new BadSceneView());
+    	
     	
     }
 

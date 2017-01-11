@@ -2,12 +2,12 @@ package weihua.realme.ego.body;
 
 import weihua.realme.ego.body.emotion.Emotion;
 import weihua.realme.ego.body.emotion.NormalEmotion;
-import weihua.realme.ego.body.identity.Identity;
-import weihua.realme.ego.body.identity.NormalIdentity;
-import weihua.realme.ego.body.subconsciousness.NormalSubconsciousness;
-import weihua.realme.ego.body.subconsciousness.Subconsciousness;
 import weihua.realme.ego.body.thinking.NormalThinking;
 import weihua.realme.ego.body.thinking.Thinking;
+import weihua.realme.ego.body.thinking.identity.Identity;
+import weihua.realme.ego.body.thinking.identity.NormalIdentity;
+import weihua.realme.ego.body.thinking.subconsciousness.NormalSubconsciousness;
+import weihua.realme.ego.body.thinking.subconsciousness.Subconsciousness;
 import weihua.realme.energy.view.View;
 
 /**
@@ -41,7 +41,7 @@ public class NormalBody implements Body {
 	@Override
 	public void see(View view) {
 		// TODO Auto-generated method stub
-		
+		System.out.println(view.energyValue);
 	}
 
 	@Override

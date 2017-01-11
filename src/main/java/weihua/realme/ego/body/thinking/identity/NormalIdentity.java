@@ -1,4 +1,4 @@
-package weihua.realme.ego.body.identity;
+package weihua.realme.ego.body.thinking.identity;
 
 /**
  * 默认认知

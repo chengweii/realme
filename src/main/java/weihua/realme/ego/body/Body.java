@@ -1,9 +1,9 @@
 package weihua.realme.ego.body;
 
 import weihua.realme.ego.body.emotion.Emotion;
-import weihua.realme.ego.body.identity.Identity;
-import weihua.realme.ego.body.subconsciousness.Subconsciousness;
 import weihua.realme.ego.body.thinking.Thinking;
+import weihua.realme.ego.body.thinking.identity.Identity;
+import weihua.realme.ego.body.thinking.subconsciousness.Subconsciousness;
 import weihua.realme.energy.view.View;
 
 /**
